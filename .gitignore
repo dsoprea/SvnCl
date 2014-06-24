@@ -7,3 +7,4 @@
 /build/
 /restpipe.egg-info/
 *.pyc
+/svncl.egg-info
