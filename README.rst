@@ -1,0 +1,1 @@
+svncl/resources/README.rst

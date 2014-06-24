@@ -5,7 +5,7 @@ import svncl
 
 app_path = os.path.dirname(svncl.__file__)
 
-with open(os.path.join(app_path, 'resources', 'README.md')) as f:
+with open(os.path.join(app_path, 'resources', 'README.rst')) as f:
       long_description = f.read()
 
 with open(os.path.join(app_path, 'resources', 'requirements.txt')) as f:
@@ -27,7 +27,7 @@ setuptools.setup(
       zip_safe=False,
       install_requires=install_requires,
       package_data={
-          'svncl': ['resources/README.md',
+          'svncl': ['resources/README.rst',
                     'resources/requirements.txt',
                     'resources/scripts/*'],
       },
