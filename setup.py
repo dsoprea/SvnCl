@@ -20,7 +20,7 @@ setuptools.setup(
       keywords='subversion svn changelog',
       author='Dustin Oprea',
       author_email='myselfasunder@gmail.com',
-      url='',
+      url='https://github.com/dsoprea/SvnCl',
       license='GPL 2',
       packages=setuptools.find_packages(exclude=['dev']),
       include_package_data=True,
