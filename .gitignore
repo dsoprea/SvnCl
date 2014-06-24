@@ -1,0 +1,9 @@
+/bin/
+/lib/
+/local/
+/include/
+/.Python
+/dist/
+/build/
+/restpipe.egg-info/
+*.pyc

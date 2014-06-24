@@ -1,0 +1,21 @@
+#!/usr/bin/python
+
+import sys
+import os.path
+dev_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
+sys.path.insert(0, dev_path)
+
+import argparse
+
+parser = argparse.ArgumentParser(description='Generate a changelog.')
+parser.add_argument('wd', help='Working directory')
+parser.add_argument('tag_url', help='Tag URL')
+
+args = parser.parse_args()
+
+import svncl.changelog
+
+lines = svncl.changelog.generate(args.wd_path, args.tag_url)
+
+for line in lines:
+    print('- ' + line)
