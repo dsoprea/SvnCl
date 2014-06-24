@@ -15,7 +15,7 @@ args = parser.parse_args()
 
 import svncl.changelog
 
-lines = svncl.changelog.generate(args.wd_path, args.tag_url)
+lines = svncl.changelog.generate(args.wd, args.tag_url)
 
 for line in lines:
     print('- ' + line)
