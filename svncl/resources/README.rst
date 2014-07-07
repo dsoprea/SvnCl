@@ -2,12 +2,12 @@
 Introduction
 ------------
 
-A tool to generate a changelog from the commits occurring after the last tag. 
-This is intended to simplify creating tag commit-messages. Messages are 
-generated starting from the oldest.
+A tool to generate a changelog with Subversion from the commits occurring since 
+the last tag. This is intended to simplify creating tag commit-messages. 
+Messages are generated starting from the oldest.
 
-I'm no more a fan of SVN than the next, modern developer, but it still exists.
-If I have to use it, I'm going to make it as painless as possible.
+I'm no more a fan of Subversion than the next, modern developer, but it still 
+exists. If I have to use it, I'm going to make it as painless as possible.
 
 
 ------------

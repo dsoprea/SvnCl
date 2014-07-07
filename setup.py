@@ -14,7 +14,7 @@ with open(os.path.join(app_path, 'resources', 'requirements.txt')) as f:
 setuptools.setup(
       name='svncl',
       version=svncl.__version__,
-      description="Generate changelog text between HEAD and the last tag.",
+      description="Generate changelog text for Subversion commits since the last tag.",
       long_description=long_description,
       classifiers=[],
       keywords='subversion svn changelog',
