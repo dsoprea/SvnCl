@@ -9,7 +9,7 @@ with open(os.path.join(app_path, 'resources', 'README.rst')) as f:
       long_description = f.read()
 
 with open(os.path.join(app_path, 'resources', 'requirements.txt')) as f:
-      install_requires = map(lambda s: s.strip(), f.readlines())
+      install_requires = list(map(lambda s: s.strip(), f.readlines()))
 
 setuptools.setup(
       name='svncl',
